@@ -4,7 +4,7 @@
 
 ---
 
-## 1. BẢNG PHÂN CÔNG NHIỆM VỤ (WBS)
+## 1. BẢNG PHÂN CÔNG NHIỆM VỤ
 
 Bảng phân chia vai trò chuyên môn giữa các thành viên theo yêu cầu:
 
@@ -15,13 +15,12 @@ Bảng phân chia vai trò chuyên môn giữa các thành viên theo yêu cầu
 
 ---
 
-## 2. PHÂN CHIA THUYẾT TRÌNH (15 PHÚT)
+## 2. PHÂN CHIA THUYẾT TRÌNH
 
-| Người nói | Thời lượng | Nội dung trình bày |
-| :--- | :---: | :--- |
-| **Sơn** *(Thuyết trình trước)* | 00:00 - 07:30 | • Quy tắc layout cốt lõi trong Flutter (*Constraints - Sizes - Position*).<br>• **Main axis, Cross axis** trong `Row` và `Column`.<br>• Các thuộc tính căn chỉnh: `mainAxisAlignment`, `crossAxisAlignment`, `mainAxisSize`. |
-| **Dương** *(Thuyết trình sau)* | 07:30 - 15:00 | • Phân chia không gian: **`Expanded`** vs **`Flexible`** (hệ số `flex`, thuộc tính `fit`).<br>• Bố cục xếp lớp đa chiều (Z-axis): **`Stack`** và **`Positioned`**.<br>• **Hiện tượng Overflow:** Nguyên nhân và 4 giải pháp xử lý triệt để.<br>• Tổng kết và giải đáp câu hỏi (Q&A). |
-
+| Người nói | Nội dung trình bày |
+| :--- | :--- |
+| **Sơn** | • Quy tắc layout cốt lõi trong Flutter (*Constraints - Sizes - Position*).<br>• **Main axis, Cross axis** trong `Row` và `Column`.<br>• Các thuộc tính căn chỉnh: `mainAxisAlignment`, `crossAxisAlignment`, `mainAxisSize`. |
+| **Dương** | • Phân chia không gian: **`Expanded`** vs **`Flexible`** (hệ số `flex`, thuộc tính `fit`).<br>• Bố cục xếp lớp đa chiều (Z-axis): **`Stack`** và **`Positioned`**.<br>• **Hiện tượng Overflow:** Nguyên nhân và 4 giải pháp xử lý triệt để.<br>• Tổng kết và giải đáp câu hỏi (Q&A). |
 ---
 
 ## 3. TÓM TẮT CƠ SỞ LÝ THUYẾT TRỌNG TÂM
