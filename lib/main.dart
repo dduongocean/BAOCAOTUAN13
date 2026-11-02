@@ -17,7 +17,7 @@ class MyDemo extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Chủ đề 2: Bố cục Flutter (Dương & Sơn)'),
+          title: const Text('Chủ đề 2: Bố cục Flutter'),
           bottom: const TabBar(
             tabs: [
               Tab(text: '1. Axis'),

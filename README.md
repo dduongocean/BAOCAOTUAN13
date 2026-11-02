@@ -10,8 +10,8 @@ Bảng phân chia vai trò chuyên môn giữa các thành viên theo yêu cầu
 
 | Thành viên | Vai trò phụ trách | Nhiệm vụ cụ thể | Đóng góp |
 | :--- | :--- | :--- | :---: |
-| **Sơn** | • **UI Design**<br>• **State Management**<br>• **Báo cáo / Slide (Phần 1)** | - Thiết kế giao diện trực quan minh họa các trục (`Row`, `Column`, `Stack`).<br>- Xử lý trạng thái hoán đổi trục và cập nhật giao diện (`setState`).<br>- Soạn nội dung lý thuyết Trục căn chỉnh & Quy tắc layout. | **50%** |
-| **Dương** | • **Business Logic**<br>• **Database / API (Mock Data)**<br>• **Báo cáo / Slide (Phần 2)** | - Hiện thực logic chia tỷ lệ `flex`, đo lường kích thước với `LayoutBuilder`.<br>- Xây dựng dữ liệu mẫu chuỗi dài để mô phỏng và kiểm thử lỗi Overflow.<br>- Soạn nội dung Expanded/Flexible, cơ chế Overflow & tổng hợp báo cáo. | **50%** |
+| **Sơn** | • **UI Design**<br>• **State Management**<br>• **Báo cáo / Slide (Phần 1)** | - Thiết kế giao diện trực quan minh họa các trục (`Row`, `Column`, `Stack`).<br>- Xử lý trạng thái hoán đổi trục và cập nhật giao diện (`setState`).<br>- Soạn nội dung lý thuyết Bố cục tuyến tính 1D (`Row`, `Column`, Trục căn chỉnh, `Expanded`, `Flexible`). | **50%** |
+| **Dương** | • **Business Logic**<br>• **Database / API (Mock Data)**<br>• **Báo cáo / Slide (Phần 2)** | - Hiện thực logic chia tỷ lệ `flex`, đo lường kích thước với `LayoutBuilder`.<br>- Xây dựng dữ liệu mẫu chuỗi dài để mô phỏng và kiểm thử lỗi Overflow.<br>- Soạn nội dung Bố cục lớp (`Stack`, `Positioned`), Quy tắc Constraints, Cơ chế & Giải pháp Overflow, tổng hợp báo cáo. | **50%** |
 
 ---
 
@@ -19,8 +19,8 @@ Bảng phân chia vai trò chuyên môn giữa các thành viên theo yêu cầu
 
 | Người nói | Nội dung trình bày |
 | :--- | :--- |
-| **Sơn** | • Quy tắc layout cốt lõi trong Flutter (*Constraints - Sizes - Position*).<br>• **Main axis, Cross axis** trong `Row` và `Column`.<br>• Các thuộc tính căn chỉnh: `mainAxisAlignment`, `crossAxisAlignment`, `mainAxisSize`. |
-| **Dương** | • Phân chia không gian: **`Expanded`** vs **`Flexible`** (hệ số `flex`, thuộc tính `fit`).<br>• Bố cục xếp lớp đa chiều (Z-axis): **`Stack`** và **`Positioned`**.<br>• **Hiện tượng Overflow:** Nguyên nhân và 4 giải pháp xử lý triệt để.<br>• Tổng kết và giải đáp câu hỏi (Q&A). |
+| **Sơn** | • Bố cục tuyến tính 1D: **`Row` và `Column`** (Bản chất 2 trục Main Axis & Cross Axis).<br>• Các thuộc tính căn chỉnh: `mainAxisAlignment`, `crossAxisAlignment`, `mainAxisSize`.<br>• Phân chia không gian: **`Expanded`** (`FlexFit.tight`) vs **`Flexible`** (`FlexFit.loose`), cơ chế chia tỷ lệ `flex`. |
+| **Dương** | • Bố cục xếp lớp đa chiều (Z-axis): **`Stack`** và **`Positioned`**.<br>• Quy tắc layout cốt lõi trong Flutter (*Constraints - Sizes - Position*).<br>• **Hiện tượng Overflow:** Nguyên nhân vi phạm ràng buộc và ma trận giải pháp xử lý triệt để.<br>• Thiết kế thích ứng (*Responsive Layout* với `LayoutBuilder`), tổng kết và giải đáp câu hỏi (Q&A). |
 ---
 
 ## 3. TÓM TẮT CƠ SỞ LÝ THUYẾT TRỌNG TÂM
